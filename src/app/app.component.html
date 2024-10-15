@@ -1,0 +1,70 @@
+<router-outlet/>
+<div *ngIf="isLoading" class="loader"></div>
+
+<div  *ngIf="!isLoading"
+  class="search">
+  <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+    <div class="form-inner">
+      <input id="name" formControlName="city" placeholder="Search By City"/>
+    </div>
+  </form>
+</div>
+<div *ngIf="!isLoading" class="container">
+  <div class="upper-data">
+    <img *ngIf="temperature > 20" src="hot.jpeg" alt="Hot Weather">
+    <img *ngIf="temperature <= 20" src="cold.png" alt="Cold Weather">
+
+    <div class="weather-data">
+      <div class="location">{{ location }}</div>
+      <div class="temperature">{{ temperature | number : '1.1-1' }}&deg;C</div>
+      <div class="icon"><img [src]=weathericon alt=""></div>
+    </div>
+  </div>
+
+  <div class="lower-data">
+    <div class="more-info-label">
+      More Information
+    </div>
+    <div class="more-info-container">
+      <div class="info-block">
+        <div class="info-block-label">
+          <img src="temperature.png" alt="">
+          <span>temperature</span>
+        </div>
+        <div class="info-block-value">
+          {{ temperature | number : '1.1-1' }}&deg;C
+        </div>
+      </div>
+      <div class="info-block">
+        <div class="info-block-label">
+          <img src="humidity.png" alt="">
+          <span>humidity</span>
+        </div>
+        <div class="info-block-value">
+          {{ humidity }}
+        </div>
+      </div>
+      <div class="info-block">
+        <div class="info-block-label">
+          <img src="wind.png" alt="">
+          <span>wind</span>
+        </div>
+        <div class="info-block-value">
+          {{ humidity }} mph
+        </div>
+      </div>
+      <div class="info-block">
+        <div class="info-block-label">
+          <img src="dew.png" alt="">
+          <span>dew point</span>
+        </div>
+        <div class="info-block-value">
+          {{ dewpoint | number : '1.1-1' }}&deg;C
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
