@@ -1,6 +1,10 @@
 # WeatherApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+Angular Weather app is an Angular application that uses Angular and the Weather API. This application allows a user to be able to type a location into a search form and on submission of that form, they're able to see the current weather details for that location they searched for.
+
+![Screenshot from 2024-10-15 17-38-50](https://github.com/user-attachments/assets/5b384ea7-c8bd-4c3b-badf-137f80cf41ad)
+![Screenshot from 2024-10-15 17-45-52](https://github.com/user-attachments/assets/fa2b2bce-b728-4618-bcb1-9f26ea198ffa)
+
 
 ## Development server
 
@@ -14,14 +18,19 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Authors
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+👤 **Hiron Kanishka**
 
-## Running end-to-end tests
+- GitHub: [@hironkanishka](https://linkedin.com/in/hiron-kanishka)
+- LinkedIn: [Hiron Kanishka](https://www.linkedin.com/in/hiron-kanishka/)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Feedback and Contributions
 
-## Further help
+If you have any feedback, suggestions, or would like to contribute to this project, your involvement is highly valued. Feel free to open an issue or submit a pull request with your ideas and enhancements. Remember, this template is a starting point, and the true magic lies in making it your own. Enjoy the journey of creating a stunning portfolio that represents your unique talents and accomplishments!
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Happy coding and showcasing!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
