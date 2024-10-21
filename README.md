@@ -1,5 +1,7 @@
 # WeatherApp
 
+Live Preview [click](https://angular-weather-web.netlify.app/)
+
 Angular Weather app is an Angular application that uses Angular and the Weather API. This application allows a user to be able to type a location into a search form and on submission of that form, they're able to see the current weather details for that location they searched for.
 
 ![Screenshot from 2024-10-15 17-38-50](https://github.com/user-attachments/assets/5b384ea7-c8bd-4c3b-badf-137f80cf41ad)
